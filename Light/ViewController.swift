@@ -16,8 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    print("test")
-    
     @IBAction func buttonPressed(_ sender: UIButton) {
         lightOn = !lightOn
         updateUI()
