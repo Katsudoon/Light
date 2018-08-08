@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     }
     
     print("test")
+    print("prout")
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         lightOn = !lightOn
