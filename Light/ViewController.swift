@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
+    print("test")
+    
     @IBAction func buttonPressed(_ sender: UIButton) {
         lightOn = !lightOn
         updateUI()
